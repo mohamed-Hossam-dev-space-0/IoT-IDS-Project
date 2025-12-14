@@ -1,36 +1,50 @@
 # AI-Based Intrusion Detection System for IoT Networks
 
-## Project Overview
-This project implements an AI-based Intrusion Detection System (IDS) specifically designed for Internet of Things (IoT) networks. The system uses machine learning and deep learning techniques to detect malicious activities in IoT environments.
+## 🎯 Project Overview
+An enhanced AI-based Intrusion Detection System (IDS) specifically designed for IoT networks. This system uses multiple machine learning models to detect various types of attacks in real-time.
 
-## Features
-- **Multi-Layer IoT Architecture Modeling**
-- **Simulated Attack Generation** (DoS, MITM, Eavesdropping, Data Injection)
-- **Multiple AI Models** (Random Forest, CNN, LSTM, SVM, Ensemble)
-- **Comprehensive Evaluation Metrics**
-- **Interactive Visualizations**
-- **Real-time Detection Simulation**
+## 📁 Project Structure
+IoT-IDS-Enhanced/
+├── main.py # Main control panel
+├── run_dashboard.py # Live monitoring dashboard
+├── simulate_attacks_real.py # Attack simulation laboratory
+├── compare_models.py # Model comparison utility
+├── requirements.txt # Python dependencies
+├── config.yaml # Configuration file
+│
+├── data/ # Data handling
+│ ├── data_loader_enhanced.py # Enhanced dataset generation
+│ └── [other data modules]
+│
+├── models/ # AI models
+│ ├── model_factory.py # Model creation factory
+│ └── [other model modules]
+│
+├── utils/ # Utilities
+│ ├── visualizer_enhanced.py # Professional visualizations
+│ ├── iot_architecture_3d.py # 3D architecture visualization
+│ └── [other utility modules]
+│
+├── outputs/ # Generated outputs
+│ ├── graphs/ # Visualization graphs
+│ ├── reports/ # Generated reports
+│ ├── models/ # Saved models
+│ └── simulations/ # Simulation results
+│
+└── README.md # This file
 
-## Installation
 
-### Prerequisites
-- Python 3.8+
-- Kali Linux (recommended) or any Linux distribution
-- 4GB RAM minimum, 8GB recommended
+## 🚀 Quick Start
 
-### Setup on Kali Linux
+### 1. Installation
 ```bash
-# Clone the repository
-git clone https://github.com/yourusername/iot-ids-project.git
-cd iot-ids-project
+# Clone or create project directory
+mkdir IoT-IDS-Enhanced
+cd IoT-IDS-Enhanced
+
+# Create virtual environment (recommended)
+python3 -m venv iot-env
+source iot-env/bin/activate
 
 # Install dependencies
-sudo apt update
-sudo apt install python3 python3-pip python3-venv -y
-
-# Create virtual environment
-python3 -m venv venv
-source venv/bin/activate
-
-# Install requirements
-pip install -r requirements.txt
+pip install numpy pandas scikit-learn matplotlib seaborn

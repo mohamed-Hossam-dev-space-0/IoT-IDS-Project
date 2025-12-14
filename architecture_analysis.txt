@@ -1,0 +1,49 @@
+
+============================================================
+AI-Based Intrusion Detection System for IoT Networks
+============================================================
+
+============================================================
+IoT ARCHITECTURE & ATTACK ANALYSIS
+============================================================
+
+📊 IoT System Architecture:
+----------------------------------------
+
+    1. PERCEPTION LAYER (Sensors/Devices):
+       • Temperature sensors
+       • Motion detectors  
+       • Cameras
+       • Smart actuators
+    
+    2. NETWORK LAYER (Communication):
+       • Wi-Fi routers
+       • Zigbee/Z-Wave gateways
+       • Bluetooth modules
+       • 5G/LTE connections
+    
+    3. APPLICATION LAYER (Services):
+       • Cloud platforms
+       • Mobile applications
+       • Data analytics
+       • User interfaces
+    
+
+⚠️  Common IoT Attacks:
+----------------------------------------
+
+    1. DENIAL OF SERVICE (DoS):
+       • Mechanism: Flood devices with traffic
+       • Target: Network bandwidth, device resources
+       • Detection: High packet rate, small packets
+    
+    2. MAN-IN-THE-MIDDLE (MITM):
+       • Mechanism: Intercept communications
+       • Target: Data confidentiality, integrity
+       • Detection: Protocol anomalies, timing issues
+    
+    3. DATA INJECTION:
+       • Mechanism: Send malicious data
+       • Target: System decisions, data integrity
+       • Detection: Anomalous data patterns
+    

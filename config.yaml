@@ -1,0 +1,66 @@
+project:
+  name: "IoT-IDS-Enhanced"
+  version: "2.0"
+  authors: ["Your Team Name"]
+  course: "Cyber Physical Systems Security (CCY4301)"
+  university: "Arab Academy for Science, Technology & Maritime Transport"
+
+data:
+  samples: 10000
+  attack_ratio: 0.2
+  test_size: 0.2
+  validation_size: 0.1
+  feature_count: 24
+
+models:
+  random_forest:
+    n_estimators: 100
+    max_depth: 15
+    min_samples_split: 5
+    min_samples_leaf: 2
+  
+  xgboost:
+    n_estimators: 100
+    max_depth: 6
+    learning_rate: 0.1
+  
+  cnn:
+    epochs: 20
+    batch_size: 32
+    learning_rate: 0.001
+  
+  lstm:
+    epochs: 25
+    batch_size: 32
+    learning_rate: 0.001
+
+monitoring:
+  update_interval: 5
+  alert_threshold: 0.8
+  max_alerts_per_minute: 10
+  dashboard_port: 8050
+
+attacks:
+  simulated:
+    dos_duration: 30
+    mitm_duration: 25
+    injection_duration: 20
+    normal_duration: 30
+  
+  types:
+    - "Denial of Service (DoS)"
+    - "Man-in-the-Middle (MITM)"
+    - "Data Injection"
+    - "Eavesdropping"
+    - "Replay Attacks"
+    - "Ransomware"
+
+output:
+  graphs_dir: "outputs/graphs"
+  reports_dir: "outputs/reports"
+  models_dir: "outputs/models"
+  simulations_dir: "outputs/simulations"
+  
+  save_graphs: true
+  save_reports: true
+  save_models: true

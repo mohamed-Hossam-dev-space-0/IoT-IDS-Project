@@ -640,10 +640,7 @@ def main():
     print("\n" + "="*60)
     print("🎯 Simulation laboratory closed")
     print("="*60)
-    print("\nNext steps:")
-    print("1. Use these simulations to test your IDS")
-    print("2. Analyze detection rates for different attack types")
-    print("3. Check 'outputs/simulations/' for detailed reports")
+
 
 if __name__ == "__main__":
     main()

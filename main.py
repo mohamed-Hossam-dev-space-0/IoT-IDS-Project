@@ -105,7 +105,7 @@ def analyze_mode():
            • Data Analytics: AI-based threat detection
         """)
     
-    print("\n✅ Analysis complete! Use this for your report Section 3.")
+    print("\n✅ Analysis complete!")
     return True
 
 def demo_mode():
@@ -511,11 +511,7 @@ Examples:
         print("\n" + "="*60)
         print("🎉 Your enhanced IoT-IDS project is working!")
         print("="*60)
-        print("\nNext steps for your team:")
-        print("1. Review the generated graphs in 'outputs/graphs/'")
-        print("2. Use the metrics for your project report")
-        print("3. Prepare presentation with these results")
-        print("4. Customize the code for your specific needs")
+        
     else:
         print("\n⚠️  Some features may need additional setup.")
 

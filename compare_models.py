@@ -406,11 +406,7 @@ def compare_all_models():
     print("\n" + "="*70)
     print("✅ MODEL COMPARISON COMPLETE")
     print("="*70)
-    print(f"\nNext steps:")
-    print(f"  1. Review the generated graphs in 'outputs/graphs/'")
-    print(f"  2. Select the best model for your deployment scenario")
-    print(f"  3. Fine-tune hyperparameters for selected model")
-    print(f"  4. Deploy the model in your IoT-IDS system")
+    
     
     return results
 

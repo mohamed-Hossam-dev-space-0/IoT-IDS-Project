@@ -37,7 +37,6 @@ Project/
 │
 └── 📂 outputs/                     # Outputs
     ├── graphs/                     # Charts
-    └── reports/                    # Reports
 
 ## Installation
 
@@ -143,7 +142,6 @@ models:
 All results are saved in the `outputs/` directory:
 
 - `outputs/graphs/` - Visualizations
-- `outputs/models/` - Trained models
 
 ## Requirements
 

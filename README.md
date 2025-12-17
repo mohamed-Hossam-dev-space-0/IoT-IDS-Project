@@ -143,9 +143,7 @@ models:
 All results are saved in the `outputs/` directory:
 
 - `outputs/graphs/` - Visualizations
-- `outputs/reports/` - Analysis reports
 - `outputs/models/` - Trained models
-- `outputs/simulations/` - Simulation results
 
 ## Requirements
 

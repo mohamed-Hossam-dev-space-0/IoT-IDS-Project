@@ -37,6 +37,8 @@ Project/
 │
 └── 📂 outputs/                     # Outputs
     ├── graphs/                     # Charts
+    ├── reports/                     # reports
+    ├── models/                         # models
 
 ## Installation
 

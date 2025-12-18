@@ -354,7 +354,7 @@ def demo_mode():
     print(f"   • Accuracy: {accuracy*100:.1f}%")
     print(f"   • Detection Rate: {tp/(tp+fn)*100:.1f}%" if 'tp' in locals() else "")
     print(f"   • Graphs generated in: outputs/graphs/")
-    print("\n🎓 Use these results for your project report and presentation!")
+   
     
     return True
 
@@ -502,7 +502,7 @@ Examples:
         print("🏁 COMPLETE PROJECT PIPELINE FINISHED!")
         print("="*60)
         print(f"\n📁 Check 'outputs/graphs/' for generated visuals")
-        print("📄 Use these outputs for your project report")
+       
         
         success = True
     
